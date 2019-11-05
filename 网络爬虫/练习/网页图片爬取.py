@@ -5,7 +5,8 @@ import requests
 # 网络图片爬取
 
 url = 'https://img14.360buyimg.com/n4/jfs/t1/95706/11/1279/276153/5dbc1948Ebb1d6f48/e6318f80fa8d3146.jpg'
-root = 'G://Pycharme_projct//网络爬虫//爬取图片//'
+# root = '//home/mq//PycharmProjects//Pythno_web//网络爬虫//爬取图片//'
+root ='爬取图片_inproject//'
 path = root + url.split('/')[-1]
 try:
     if not os.path.exists(root):
